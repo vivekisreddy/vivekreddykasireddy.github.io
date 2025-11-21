@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #0a0f1f;
+    color: #e6e6e6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #0d1226;
+    border-bottom: 1px solid #1e2638;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #6fa8ff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #dcdcdc;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: #6fa8ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.accent {
+    color: #6fa8ff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 25px;
+    background: #6fa8ff;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #8fc0ff;
+}
+
+.section {
+    padding: 60px 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.project-card, .experience-card {
+    background: #11162b;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #1d2a44;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover,
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #6fa8ff;
+}
